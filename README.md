@@ -4,7 +4,9 @@
 - https://kalmarc.tf/
 
 ## Description
-**
+*Welcome to KalmarCTF 2025!*
+***Start: Fri, 07 Mar. 2025, 17:00 UTC***
+***End: Sun, 09 Mar. 2025, 17:00 UTC***
 
 
 # Results
