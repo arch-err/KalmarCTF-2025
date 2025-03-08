@@ -1,9 +1,17 @@
 general:
   ctf:
-    name: {{ .Env.CTF_NAME }}
-    description: |-
-      {{ .Env.CTF_DESCRIPTION }}
+    name: KalmarCTF-2025
+    description: ""
     urls:
-      - {{ .Env.CTF_URL }}
+      - https://kalmarc.tf/
     repo:
-      URL: {{ .Env.REPO_URL }}
+      URL: git@github.com:arch-err/KalmarCTF-2025.git
+challenges:
+  - name: RWX_Bronze
+  - name: RWX_Silver
+  - name: RWX_Gold
+  - name: RWX_Diamond
+  - name: babyKalmarCTF
+  - name: Paper_Viper
+  - name: nix-build_as_a_service
+  - name: Pycomment
