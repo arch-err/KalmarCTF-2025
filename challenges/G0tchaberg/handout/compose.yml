@@ -1,0 +1,19 @@
+services:
+  gotenberg:
+    restart: unless-stopped
+    image: gotenberg/gotenberg:latest # https://gotenberg.dev/
+    ports:
+      - "8642:3000"
+    networks:
+      - local
+
+  flagbot:
+    restart: unless-stopped
+    build: ./flagbot
+    depends_on:
+      - gotenberg
+    networks:
+      - local
+
+networks:
+  local:
